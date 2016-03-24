@@ -18,8 +18,6 @@ cd C:\Projects\WebAppSample\src\WebAppSample
 
 Then run the following Command:
 
-dnu restore
-
-dnx ef migrations add Initial
-
-dnx ef database update
+dnu restore                           ** For the Dependencies
+dnx ef migrations add Initial         ** Migrations for EF to update DB Schema
+dnx ef database update                ** Create the DB
