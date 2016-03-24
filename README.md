@@ -9,7 +9,6 @@ This Web Application used the following:
 
 This app is to be passed as an Application Requirement
 
-
 How to Run:
 
 After opening the Solution, Open a Command Prompt in the project directory:
@@ -20,5 +19,7 @@ cd C:\Projects\WebAppSample\src\WebAppSample
 Then run the following Command:
 
 dnu restore
+
 dnx ef migrations add Initial
+
 dnx ef database update
